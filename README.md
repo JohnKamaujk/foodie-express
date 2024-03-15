@@ -87,9 +87,9 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Express][EXpress.js]][Express-url]
+* [![Express][Express.js]][Express-url]
 * [![React][React.js]][React-url]
-* [![Angular][Angular.io]][Angular-url]
+* [![Typescript][Typescript.dev]][Typescript-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Tailwind][Tailwind.com]][Tailwind-url]
 
@@ -237,9 +237,9 @@ Use this space to list resources you find helpful and would like to give credit 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Express.js]: https://img.shields.io/badge/Express.js-35495E?style=for-the-badge&logo=express&logoColor=4FC08D
-[EXpress-url]: https://expressjs.com/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
+[Express-url]: https://expressjs.com/
+[Typescript.dev]: https://img.shields.io/badge/Typescript-DD0031?style=for-the-badge&logo=typescript&logoColor=white
+[Typescript-url]: https://www.typescriptlang.org/
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
