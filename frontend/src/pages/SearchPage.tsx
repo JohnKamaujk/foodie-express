@@ -1,9 +1,22 @@
+import { useSearchRestaurants } from "@/api/RestaurantApi";
 import { useParams } from "react-router-dom";
 
 const SearchPage = () => {
   const { city } = useParams();
 
-  return <h1>User searched for {city}</h1>;
+  const { results } = useSearchRestaurants(city);
+
+  return (
+    <span>
+      User searched for {city}
+      <span>
+        found -
+        {results?.data.map((restaurant) => (
+          <span>{restaurant.restaurantName}</span>
+        ))}
+      </span>
+    </span>
+  );
 };
 
 export default SearchPage;
