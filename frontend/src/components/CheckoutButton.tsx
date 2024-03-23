@@ -32,11 +32,7 @@ const CheckoutButton = () => {
     return <LoadingButton />;
   }
 
-  return (
-    <Button onClick={onLogin} className="bg-orange-500 flex-1">
-      Go to checkout
-    </Button>
-  );
+  return <Button className="bg-orange-500 flex-1">Go to checkout</Button>;
 };
 
 export default CheckoutButton;
