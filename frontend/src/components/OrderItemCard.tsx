@@ -11,7 +11,6 @@ import {
   SelectValue,
 } from "./ui/select";
 import { ORDER_STATUS } from "@/config/order-status-config";
-import { useUpdateMyRestaurantOrder } from "@/api/MyRestaurantApi";
 import { useEffect, useState } from "react";
 
 type Props = {
@@ -19,20 +18,11 @@ type Props = {
 };
 
 const OrderItemCard = ({ order }: Props) => {
-  const { updateRestaurantStatus, isLoading } = useUpdateMyRestaurantOrder();
   const [status, setStatus] = useState<OrderStatus>(order.status);
 
   useEffect(() => {
     setStatus(order.status);
   }, [order.status]);
-
-  const handleStatusChange = async (newStatus: OrderStatus) => {
-    await updateRestaurantStatus({
-      orderId: order._id as string,
-      status: newStatus,
-    });
-    setStatus(newStatus);
-  };
 
   const getTime = () => {
     const orderDateTime = new Date(order.createdAt);
@@ -87,11 +77,7 @@ const OrderItemCard = ({ order }: Props) => {
         </div>
         <div className="flex flex-col space-y-1.5">
           <Label htmlFor="status">What is the status of this order?</Label>
-          <Select
-            value={status}
-            disabled={isLoading}
-            onValueChange={(value) => handleStatusChange(value as OrderStatus)}
-          >
+          <Select value={status}>
             <SelectTrigger id="status">
               <SelectValue placeholder="Status" />
             </SelectTrigger>
