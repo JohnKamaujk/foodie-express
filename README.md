@@ -73,7 +73,7 @@ With a sleek and user-friendly interface, customers can easily browse through a 
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Frameworks and tools that were used to develop Foodie express.
 
 * [![Express][Express.js]][Express-url]
 * [![React][React.js]][React-url]
@@ -88,7 +88,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
+Instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -103,20 +103,50 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   https://github.com/JohnKamaujk/foodie-express.git
+   ```
+2. cd into the frontend folder
+   ```sh
+   cd frontend/
    ```
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Create a dot env file inside the frontend folder and set up env variables
+   ```sh
+   VITE_API_BASE_URL=
+   VITE_AUTH0_DOMAIN=
+   VITE_AUTH0_CLIENT_ID=
+   VITE_AUTH0_CALLBACK_URL=
+   VITE_AUTH0_AUDIENCE=
    ```
-
+5. cd into the backend folder
+   ```sh
+   cd backend/
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Create a dot env file inside the backend folder and set up env variables
+   ```sh
+   MONGODB_URI =
+   AUTH0_AUDIENCE=
+   AUTH0_ISSUER_BASE_URL=
+   CLOUDINARY_CLOUD_NAME=
+   CLOUDINARY_API_KEY=
+   CLOUDINARY_API_SECRET=
+   FRONTEND_URL=
+   STRIPE_API_KEY=
+   STRIPE_WEBHOOK_SECRET=
+   ```
+5. Then run both the backend and frontend servers using
+    ```sh
+    npm run dev
+    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -179,9 +209,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [Johnny Boy](https://twitter.com/omnia_vincere)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/JohnKamaujk/foodie-express](https://github.com/JohnKamaujk/foodie-express)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
