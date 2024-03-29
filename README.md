@@ -156,7 +156,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more information, please refer to the [Video Demo](https://www.loom.com/share/fff49a39f362484eb8e447fb77f22069?sid=7359a733-534a-425e-b92f-c4940b3ad7ba)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +173,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [ ] Chinese
     - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/JohnKamaujk/foodie-express/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,7 +209,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Johnny Boy](https://twitter.com/omnia_vincere)
+Repo Owner Name - [Johnny Boy](https://twitter.com/omnia_vincere)
 
 Project Link: [https://github.com/JohnKamaujk/foodie-express](https://github.com/JohnKamaujk/foodie-express)
 
