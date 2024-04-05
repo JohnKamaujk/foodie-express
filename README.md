@@ -209,7 +209,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Repo Owner Name - [Johnny Boy](https://twitter.com/omnia_vincere)
+Repo Owner Name - [Johnny K](https://twitter.com/omnia_vincere)
 
 Project Link: [https://github.com/JohnKamaujk/foodie-express](https://github.com/JohnKamaujk/foodie-express)
 
