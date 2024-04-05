@@ -62,6 +62,7 @@
 
 ![Foodie Express](./frontend/src/assets/screenshot1.png)
 ![Foodie app](./frontend/src/assets/screenshot2.png)
+![Foodie screenshot](./frontend/src/assets/screenshot3.png)
 
 
 Foodie Express is a modern food delivery web application designed to connect hungry customers with their favorite local restaurants, while also empowering users to become restaurant owners themselves. 
