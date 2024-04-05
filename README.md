@@ -172,6 +172,7 @@ _For more information, please refer to the [Video Demo](https://www.loom.com/sha
 - [ ] Multi-language Support
     - [ ] Chinese
     - [ ] Spanish
+    - [_] French
 
 See the [open issues](https://github.com/JohnKamaujk/foodie-express/issues) for a full list of proposed features (and known issues).
 
