@@ -60,7 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Foodie Express][product-screenshot]](https://example.com)
+[![Foodie Express][product-screenshot]](https://github.com/JohnKamaujk/foodie-express/assets/94115423/1f6c761e-6574-4762-b7df-7fc2a705b68e)
 
 Foodie Express is a modern food delivery web application designed to connect hungry customers with their favorite local restaurants, while also empowering users to become restaurant owners themselves. 
 
